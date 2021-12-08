@@ -21,6 +21,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'bootstrap-sass', '3.4.1'
+gem 'win32console', '1.3.2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -52,6 +54,7 @@ group :test do
   gem 'minitest-reporters','1.3.8'
   gem 'guard','2.16.2'
   gem 'guard-minitest','2.4.6'
+  gem 'rails-controller-testing', '1.0.5'
 end
 
 group :production do
