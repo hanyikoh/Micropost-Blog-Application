@@ -24,7 +24,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootstrap-sass', '3.4.1'
 # gem 'win32console', '1.3.2'
 gem 'bcrypt',         '3.1.13'
-
+gem 'faker',          '2.11.0'
+gem 'will_paginate',           '3.3.0'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
